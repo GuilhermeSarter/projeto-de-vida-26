@@ -12,11 +12,10 @@
     <section class="conteudo-principal">
         <h2 class="titulo-principal">Meus Objetivos do ano<span>_</span></h2>
 
-        <!-- Divisão que encapsula botões e abas -->
         <div class="conteudo">
             <div class="botoes">
                 <button class="botao ativo">Cursos na Alura</button>
-                <button class="botao">Criar projetos em JavaScript</button>
+                <button class="botao">Criar projetos em Javascript</button>
                 <button class="botao">Criar um portfolio</button>
                 <button class="botao">Atualizar meu currículo</button>
             </div>
@@ -27,7 +26,7 @@
                     <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
                 </div>
                 <div class="aba-conteudo">
-                    <h3 class="aba-conteudo-titulo-principal">Criar 5 projetos em JavaScript</h3>
+                    <h3 class="aba-conteudo-titulo-principal">Criar 5 projetos em Javascript</h3>
                     <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
                 </div>
                 <div class="aba-conteudo">
@@ -35,30 +34,14 @@
                     <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
                 </div>
                 <div class="aba-conteudo">
-                    <h3 class="aba-conteudo-titulo-principal">Atualizar meu currículo com os certificados da Alura</h3>
+                    <h3 class="aba-conteudo-titulo-principal">Atualizar meu curriculo com os certificados da Alura</h3>
                     <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Script para alternar abas -->
-    <script>
-        const botoes = document.querySelectorAll('.botao');
-        const abas = document.querySelectorAll('.aba-conteudo');
-
-        botoes.forEach((botao, index) => {
-            botao.addEventListener('click', () => {
-                // Remove classe ativo de todos os botões e abas
-                botoes.forEach(b => b.classList.remove('ativo'));
-                abas.forEach(a => a.classList.remove('ativo'));
-
-                // Adiciona classe ativo ao botão e aba selecionados
-                botao.classList.add('ativo');
-                abas[index].classList.add('ativo');
-            });
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>

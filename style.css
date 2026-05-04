@@ -39,14 +39,13 @@ body {
     color: var(--verde);
 }
 
-/* Estilização dos botões */
+/* Botões */
 .botoes {
     display: flex;
     width: 100%;
 }
 
 .botao {
-    font-family: "Chakra Petch", sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
@@ -72,7 +71,7 @@ body {
     border-bottom: 4px solid var(--verde);
 }
 
-/* Conteúdo geral das abas */
+/* Conteúdo das abas */
 .conteudo {
     width: 100%;
 }
@@ -85,16 +84,15 @@ body {
     box-sizing: border-box;
 }
 
-/* Cada aba de conteúdo */
 .aba-conteudo {
-    display: none; /* escondidas por padrão */
+    display: none;
 }
 
 .aba-conteudo.ativo {
-    display: block; /* apenas a aba ativa aparece */
+    display: block;
 }
 
-/* Títulos dentro das abas */
+/* Títulos das abas */
 .aba-conteudo-titulo-principal {
     font-size: 28px;
     text-align: center;
